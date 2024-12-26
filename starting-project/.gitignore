@@ -1,0 +1,56 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Android
+/android/.gradle
+/android/app/build
+/android/local.properties
+/android/.idea
+
+# iOS
+/ios/Pods
+/ios/*.xcodeproj/*
+!ios/*.xcodeproj/project.pbxproj
+!ios/*.xcodeproj/xcshareddata/
+!ios/*.xcworkspace/contents.xcworkspacedata
+/ios/*.xcworkspace/xcuserdata/
+/ios/build/
+/ios/DerivedData/
+/ios/*.xcuserstate
+
+# IDEs and editors
+.idea/
+/.vscode/
+/*.swp
+*.sublime-workspace
+*.sublime-project
+
+# Environment variables
+.env
+.env.*.local
+
+# React Native
+*.bundle
+*.log
+*.tflite
+*.hprof
+__MACOSX/
+!metro.config.js
+
+# Misc
+.DS_Store
+*.bak
+*.tmp
+Thumbs.db
+
+# Expo
+.expo
+.expo-shared
+web-build/
